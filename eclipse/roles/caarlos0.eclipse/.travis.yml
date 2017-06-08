@@ -1,0 +1,11 @@
+sudo: required
+python:
+  - 2.7
+os:
+  - linux
+  - osx
+install: sudo pip install git+git://github.com/ansible/ansible.git@devel
+script: ./setup
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
+  email: false

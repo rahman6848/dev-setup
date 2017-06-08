@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  roles:
+    - caarlos0.java-dev
+    - ansible-role-eclipse

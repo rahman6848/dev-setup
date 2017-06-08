@@ -1,0 +1,4 @@
+- hosts: localhost
+  roles:
+    - role: jdauphant.sublimetext
+      sublimetext_build:  3124
