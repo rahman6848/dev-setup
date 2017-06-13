@@ -14,3 +14,13 @@
     - name: Install Google Chrome
       apt:
         deb: ./google-chrome-stable_current_amd64.deb
+  roles:
+    - dpalomar.sts
+    - geerlingguy.docker
+    - geerlingguy.mysql
+    - deimosfr.neo4j
+    - geerlingguy.nodejs
+    - jdauphant.sublimetext
+      sublimetext_build:  3124
+    - franklinkim.mongodb
+
