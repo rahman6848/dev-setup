@@ -1,0 +1,7 @@
+- src: dpalomar.sts
+- src: geerlingguy.docker
+- src: geerlingguy.mysql
+- src: deimosfr.neo4j
+- src: geerlingguy.nodejs
+- src: jdauphant.sublimetext
+- src: franklinkim.mongodb
